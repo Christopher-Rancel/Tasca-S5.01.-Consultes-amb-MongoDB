@@ -49,23 +49,29 @@ S’ha filtrat la col·lecció `movies` per mostrar les pel·lícules que conten
 
 ## Codi (MongoDB Compass)
 
-```json
-// 1. Primers 2 comentaris (Filter)
+// 1. Primers 2 comentaris
+Filter:
 {}
 
-// Limit: 2
+Limit:
+2
 
 // 2. Nombre total d’usuaris
 // Es consulta la col·lecció `users` i es mostra el total a la part superior (Documents)
 
 // 3. Cinemes a Califòrnia
+Filter:
 {
   "location.address.state": "CA"
 }
 
-// 4. Ordenació i límit
-Sort: { _id: 1 }
-Limit: 1
+// 4. Primer usuari registrat
+Sort:
+{ "_id": 1 }
+
+Limit:
+1
 
 // 5. Pel·lícules de comèdia
-{ genres: "Comedy" }
+Filter:
+{ "genres": "Comedy" }
