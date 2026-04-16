@@ -47,8 +47,7 @@ S’ha filtrat la col·lecció `movies` per mostrar les pel·lícules que conten
 
 ---
 
-## Codi (MongoDB Compass)
-
+```
 // 1. Primers 2 comentaris
 Filter: {}
 Limit: 2
@@ -65,3 +64,4 @@ Limit: 1
 
 // 5. Pel·lícules de comèdia
 Filter: { "genres": "Comedy" }
+```
