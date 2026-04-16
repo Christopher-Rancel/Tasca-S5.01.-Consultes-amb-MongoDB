@@ -50,7 +50,7 @@ L’objectiu és consultar dades, aplicar filtres simples i obtenir informació 
 
 ---
 
-## Codi (MongoDB Compass)
+## Codi
 
 ```
 // 1. Primers 2 comentaris
