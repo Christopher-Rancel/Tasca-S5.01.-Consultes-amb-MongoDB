@@ -11,7 +11,7 @@ L’objectiu és obtenir les pel·lícules dels Estats Units que tenen entre 5 i
 
 ---
 
-## Codi (MongoDB Compass)
+## Codi
 
 ```
 Filter: {
