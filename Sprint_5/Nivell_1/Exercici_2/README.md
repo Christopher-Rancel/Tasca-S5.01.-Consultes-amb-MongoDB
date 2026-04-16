@@ -11,7 +11,7 @@ L’objectiu és obtenir les pel·lícules produïdes l’any 1932 que siguin de
 
 ---
 
-## Codi (MongoDB Compass)
+## Codi
 
 ```
 Filter: {
