@@ -1,5 +1,37 @@
-# Nivell 1 - Exercici 1
+# Nivell 1 - Exercici 0 i Exercici 1
 
+## Exercici 0
+### Crea una base de dades amb MongoDB utilitzant com a col·leccions els arxius adjunts.
+
+---
+
+## Descripció
+
+En aquest exercici s’ha creat una base de dades en MongoDB utilitzant MongoDB Compass i s’han importat els arxius JSON com a col·leccions.
+
+L’objectiu és preparar l’entorn de treball per poder realitzar les consultes posteriors.
+
+---
+
+## Procés realitzat
+
+S’ha creat la base de dades `cinemaDB` i s’han importat les següents col·leccions:
+
+- `users`
+- `movies`
+- `theaters`
+- `comments`
+- `sessions`
+
+La importació s’ha realitzat mitjançant l’opció **Add Data → Import File** de MongoDB Compass.
+
+---
+
+## Resultat
+
+Les col·leccions s’han carregat correctament i contenen els documents corresponents, permetent així treballar amb les dades en els exercicis següents.
+
+---
 ## Mostra els 2 primers comentaris que hi ha en la base de dades.  
 ## Quants usuaris tenim registrats?  
 ## Quants cinemes hi ha en l'estat de Califòrnia?  
@@ -7,6 +39,8 @@
 ## Quantes pel·lícules de comèdia hi ha en la nostra base de dades?
 
 ---
+
+## Exercici 1
 
 ## Descripció
 
