@@ -32,15 +32,16 @@ La importació s’ha realitzat mitjançant l’opció **Add Data → Import Fil
 Les col·leccions s’han carregat correctament i contenen els documents corresponents, permetent així treballar amb les dades en els exercicis següents.
 
 ---
-## Mostra els 2 primers comentaris que hi ha en la base de dades.  
-## Quants usuaris tenim registrats?  
-## Quants cinemes hi ha en l'estat de Califòrnia?  
-## Quin va ser el primer usuari/ària en registrar-se?  
-## Quantes pel·lícules de comèdia hi ha en la nostra base de dades?
-
----
 
 ## Exercici 1
+
+### Mostra els 2 primers comentaris que hi ha en la base de dades.  
+### Quants usuaris tenim registrats?  
+### Quants cinemes hi ha en l'estat de Califòrnia?  
+### Quin va ser el primer usuari/ària en registrar-se?  
+### Quantes pel·lícules de comèdia hi ha en la nostra base de dades?
+
+---
 
 ## Descripció
 
@@ -49,37 +50,7 @@ L’objectiu és consultar dades, aplicar filtres simples i obtenir informació 
 
 ---
 
-## Consultes realitzades
-
-### 1. Primers 2 comentaris
-
-S’ha accedit a la col·lecció `comments` i s’han mostrat els dos primers documents utilitzant el límit de resultats.
-
----
-
-### 2. Nombre total d’usuaris
-
-S’ha accedit a la col·lecció `users` i s’ha obtingut el nombre total de documents mostrats a la part superior de MongoDB Compass.
-
----
-
-### 3. Cinemes a Califòrnia
-
-S’ha filtrat la col·lecció `theaters` per obtenir els cinemes situats a l’estat de Califòrnia (`CA`).
-
----
-
-### 4. Primer usuari registrat
-
-S’ha ordenat la col·lecció `users` pel camp `_id` en ordre ascendent i s’ha limitat el resultat a un únic document per obtenir el primer usuari registrat.
-
----
-
-### 5. Pel·lícules de comèdia
-
-S’ha filtrat la col·lecció `movies` per mostrar les pel·lícules que contenen el gènere `Comedy`.
-
----
+## Codi (MongoDB Compass)
 
 ```
 // 1. Primers 2 comentaris
@@ -87,7 +58,7 @@ Filter: {}
 Limit: 2
 
 // 2. Nombre total d’usuaris
-// Es consulta la col·lecció `users` i es mostra el total a la part superior (Documents)
+// Es consulta la col·lecció users i es mostra el total a la part superior (Documents)
 
 // 3. Cinemes a Califòrnia
 Filter: { "location.address.state": "CA" }
@@ -99,4 +70,3 @@ Limit: 1
 // 5. Pel·lícules de comèdia
 Filter: { "genres": "Comedy" }
 ```
-
