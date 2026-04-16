@@ -57,9 +57,7 @@ Limit: 2
 // Es consulta la col·lecció `users` i es mostra el total a la part superior (Documents)
 
 // 3. Cinemes a Califòrnia
-Filter: {
-  "location.address.state": "CA"
-}
+Filter: { "location.address.state": "CA" }
 
 // 4. Primer usuari registrat
 Sort: { "_id": 1 }
