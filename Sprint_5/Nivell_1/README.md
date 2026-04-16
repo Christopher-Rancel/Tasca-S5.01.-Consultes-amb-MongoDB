@@ -2,7 +2,6 @@
 
 Crea una base de dades amb MongoDB utilitzant com a col·leccions els arxius adjunts i realitza les següents consultes utilitzant MongoDB Compass:
 
-## Exercici 0
 Crea una base de dades amb MongoDB utilitzant com a col·leccions els arxius adjunts.
 
 ## Exercici 1
